@@ -2,7 +2,7 @@ javascript:
 (
     function()
     {
-        var newcss=".k{width:1280px;}.aR{min-height:500px;}";
+        var newcss=".k:not(.dg){width:1280px;}.aR{min-height:500px;}";
         if("\v"=="v")
         {
             document.createStyleSheet().cssText=newcss
